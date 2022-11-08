@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:src="@drawable/banner"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HÔM CÓ KHUYẾN MÃI GÌ?"
+                android:textSize="24sp"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Xem tất cả"
+                android:textSize="22sp"
+                android:padding="5dp"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/needs"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BẠN MUỘN ĂN GÌ?"
+            android:textSize="24dp"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+            <TableRow>
+                <ImageView android:layout_width="205dp"
+                    android:id="@+id/imv_brf"
+                    android:layout_height="90dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/breakfast_banner"/>
+                <ImageView android:layout_width="205dp"
+                    android:id="@+id/imv_lunch"
+                    android:layout_height="90dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/lunch_banner"/>
+
+            </TableRow>
+            <TableRow>
+                <ImageView android:layout_width="205dp"
+                    android:id="@+id/imv_dinner1"
+                    android:layout_height="90dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/dinner_1_banner"/>
+                <ImageView android:layout_width="205dp"
+                    android:id="@+id/imv_dinner2"
+                    android:layout_height="90dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/dinner_2_banner"/>
+
+            </TableRow>
+
+
+        </TableLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/advertise_1"
+
+            />
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
